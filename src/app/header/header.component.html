@@ -1,0 +1,13 @@
+<div class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand"></a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <nav class="navbar-nav">
+      <a class="nav-item nav-link" [routerLink]="'/'"
+         routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Zlobin1040</a>
+      <!-- routerLinkActive используется для применения css класса к выбранному пункту меню, в данном случае active - сss класс -->
+      <!-- [routerLinkActiveOptions]="{exact: true}" - используется, для того, чтобы указать полное и строгое соответствие адресу в строке и роуту -->
+      <a class="nav-item nav-link" [routerLink]="'/list'" routerLinkActive="active">Каталог</a>
+      <a class="nav-item nav-link" [routerLink]="'/create'" routerLinkActive="active">Создать</a>
+    </nav>
+</div>
+</div>

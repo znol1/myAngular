@@ -1,0 +1,17 @@
+<div class="e">
+<form [formGroup]="createForm">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-info"><h1>Добавить</h1></div>
+      <label>Продукт</label>
+      <input type="text" class="form-control" #name formControlName = 'name' required>
+      <label>Количество</label>
+      <input type="number" class="form-control" #number formControlName = 'number' required>
+      <br>
+      <button class="btn btn-primary btn-lg"
+              (click) = "toBd({id: 1, name: 'name', status: false, number: 12})"
+              [disabled]="!createForm.valid">Добавить</button>
+    </div>
+  </div>
+</form>
+</div>

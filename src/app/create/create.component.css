@@ -1,0 +1,13 @@
+.e {
+  display: grid;
+}
+.col-xs-12 {
+  text-align: center;
+}
+.form-control {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn {
+  margin-top: 20px;
+}

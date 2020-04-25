@@ -1,0 +1,25 @@
+<div class = "e">
+<div [class.yes]= "buy.status" [class.no]="!buy.status">
+<form [formGroup] = editForm (ngSubmit)="edit(t)">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <p>
+        <strong>Товар: {{buy.name}}</strong>
+        <br>
+        <strong>Количество: {{buy.number}}</strong>
+        <br>
+        <label>изменить товар</label>
+        <input type="text" class="form-control"  #editName formControlName = 'name'>
+        <label>изменить количество</label>
+        <input type="number" class="form-control"  formControlName = 'number'>
+        <input type = "checkbox" [(ngModel)]="t" [ngModelOptions]="{standalone: true}">
+        <button type = "submit" class="btn btn-primary btn-lg" [disabled]="!editForm.valid">Изменить</button>
+        <button (click) = "delete()" #del >&times;</button>
+      </p>
+    </div>
+  </div>
+</form>
+  <button class="btn btn-primary btn-lg" (click) = "edits(t, buy.name, buy.number)">Изменить статус</button>
+</div>
+</div>
+

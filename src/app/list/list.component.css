@@ -1,0 +1,10 @@
+.online {
+  background: greenyellow;
+}
+.offline {
+  background-color: crimson;
+}
+.el {
+  display: grid;
+  width: 100%;
+}

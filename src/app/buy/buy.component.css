@@ -1,0 +1,19 @@
+.yes {
+  background-color: white;
+}
+.no {
+  background: greenyellow;
+}
+.e {
+  display: grid;
+}
+.panel {
+  text-align: center;
+}
+.form-control {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn {
+  margin-top: 20px;
+}

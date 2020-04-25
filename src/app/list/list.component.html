@@ -1,0 +1,10 @@
+<div class = "el">
+  <button (click)="sort(services.we, typeSort)">Сортировать</button>
+<app-buy *ngFor=
+           "let buyElement of services.we;
+            let i = index" [buy]="buyElement"
+            (editbuy)="edBd($event)"
+            (delbuy)="delBd($event)"
+            (cbuy)="cBd($event)">
+</app-buy>
+</div>

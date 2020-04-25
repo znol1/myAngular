@@ -1,0 +1,12 @@
+.navbar-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 20%;
+  height: 20%;
+}
+.nav-item {
+
+}
+body {
+  width: 20%;
+}

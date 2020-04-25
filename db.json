@@ -1,0 +1,16 @@
+{
+  "goods": [
+    {
+      "id": 1587855631550,
+      "name": "Котел",
+      "status": true,
+      "number": 12
+    },
+    {
+      "id": 1587855638846,
+      "name": "Дятел",
+      "status": false,
+      "number": 1
+    }
+  ]
+}
